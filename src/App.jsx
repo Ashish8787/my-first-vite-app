@@ -2,6 +2,7 @@ import IntroCard from "./components/IntroCard";
 import UserCard from "./components/UserCard";
 import BlogCard from "./components/BlogCard";
 import Counter from "./components/Counter";
+import UserList from "./components/UserList";
 
 const blogs = [
   {
@@ -33,7 +34,7 @@ const stdDtails = [
 function App() {
   return (
     <>
-    <Counter count={10} />
+    {/* <Counter count={10} /> */}
     {/* <IntroCard /> */}
     {/* <div style={{ textAlign: "center", marginTop: "5rem" }}>
       <h1 style={{ color: "red" , fontSize: "3rem", fontWeight: "bold" , marginBottom: "1rem" , textTransform: "uppercase" , letterSpacing: "0.2rem" , textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)", textAlign: "center", alignItems: "center"}}>Hello React + Vite ⚡</h1>
@@ -44,7 +45,8 @@ function App() {
     <UserCard name="Jim Doe" email="jim.doe@example.com" phone="123-456-7890" /> */}
 
     {/* <BlogCard blogs={blogs} /> */}
-    <IntroCard stdDetails={stdDtails} />
+    {/* <IntroCard stdDetails={stdDtails} /> */}
+    <UserList />
     </>
   );
 }
