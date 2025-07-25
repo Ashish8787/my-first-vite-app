@@ -2,6 +2,7 @@ import IntroCard from "./components/IntroCard";
 import UserCard from "./components/UserCard";
 import BlogCard from "./components/BlogCard";
 import Counter from "./components/Counter";
+import TimerComponent from "./components/TimeComponent";
 import UserList from "./components/UserList";
 
 const blogs = [
@@ -34,6 +35,7 @@ const stdDtails = [
 function App() {
   return (
     <>
+    <TimerComponent />
     {/* <Counter count={10} /> */}
     {/* <IntroCard /> */}
     {/* <div style={{ textAlign: "center", marginTop: "5rem" }}>
