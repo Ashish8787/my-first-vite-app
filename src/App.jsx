@@ -5,6 +5,7 @@ import Counter from "./components/Counter";
 import TimerComponent from "./components/TimeComponent";
 import UserList from "./components/UserList";
 import ThemeChanger from "./components/ThemeChanger";
+import Wrapper from "./components/Wrapper";
 
 const blogs = [
   {
@@ -50,7 +51,13 @@ function App() {
     {/* <BlogCard blogs={blogs} /> */}
     {/* <IntroCard stdDetails={stdDtails} /> */}
     {/* <UserList /> */}
-    <ThemeChanger />
+    {/* <ThemeChanger /> */}
+    <Wrapper>
+      <h1>Hello World</h1>
+    </Wrapper>
+    <Wrapper>
+      <h1>Hello Ashish</h1>
+    </Wrapper>
     </>
   );
 }
