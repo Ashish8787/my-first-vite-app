@@ -6,6 +6,11 @@ import TimerComponent from "./components/TimeComponent";
 import UserList from "./components/UserList";
 import ThemeChanger from "./components/ThemeChanger";
 import Wrapper from "./components/Wrapper";
+import InputTask from "./components/InputTask";
+import Skills from "./components/Skills";
+import Circle from "./components/Circle";
+import ClockColor from "./components/ClockColor";
+import Collage from "./components/Collage";
 
 const blogs = [
   {
@@ -47,17 +52,23 @@ function App() {
     {/* <UserCard name="John Doe" email="john.doe@example.com" phone="123-456-7890" />
     <UserCard name="Jane Doe" email="jane.doe@example.com" phone="123-456-7890" />
     <UserCard name="Jim Doe" email="jim.doe@example.com" phone="123-456-7890" /> */}
-
+    {/* <UserList /> */}
     {/* <BlogCard blogs={blogs} /> */}
     {/* <IntroCard stdDetails={stdDtails} /> */}
     {/* <UserList /> */}
     {/* <ThemeChanger /> */}
-    <Wrapper>
+    {/* <Wrapper>
       <h1>Hello World</h1>
     </Wrapper>
     <Wrapper>
       <h1>Hello Ashish</h1>
-    </Wrapper>
+    </Wrapper> */}
+    {/* <InputTask /> */}
+    {/* <Skills /> */}
+    {/* <Circle /> */}
+    {/* <UserCard /> */}
+    {/* <ClockColor /> */}
+    <Collage />
     </>
   );
 }
