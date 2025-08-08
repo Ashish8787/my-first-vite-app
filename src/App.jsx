@@ -12,6 +12,7 @@ import Circle from "./components/Circle";
 import ClockColor from "./components/ClockColor";
 import Collage from "./components/Collage";
 import UseEffectTask from "./components/UseEffectTask";
+import ShowEmpData from "./components/ShowEmpData";
 
 const blogs = [
   {
@@ -70,7 +71,8 @@ function App() {
     {/* <UserCard /> */}
     {/* <ClockColor /> */}
     {/* <Collage /> */}
-    <UseEffectTask />
+    {/* <UseEffectTask /> */}
+    <ShowEmpData />
     </>
   );
 }
